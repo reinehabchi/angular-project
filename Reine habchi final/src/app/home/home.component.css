@@ -1,0 +1,232 @@
+/* HEADER */
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../assets/sliderImg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.header>* {
+    z-index: 3;
+}
+
+.header h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.header h1 span {
+    color: var(--color-cream);
+}
+
+.header p {
+    font-size: 21px;
+    width: 50%;
+    text-align: center;
+    margin: 25px 0;
+    letter-spacing: 1.5px;
+}
+
+.header a {
+    padding: 15px 40px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.header a:hover {
+    background-color: #ffffff55;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .4;
+}
+
+/* HEADER BOTTOM */
+.header-bottom {
+    position: relative;
+    height: 30vh;
+    background-color: var(--color-yellow);
+}
+
+.header-bottom .img1 {
+    position: absolute;
+    width: 400px;
+    bottom: -30px;
+    left: 150px;
+}
+
+.header-bottom .img2 {
+    position: absolute;
+    width: 450px;
+    right: 100px;
+    top: -50px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    padding: 150px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-section .text {
+    flex-basis: 50%;
+}
+
+.about-section .text h1 {
+    color: var(--color-pink);
+    font-size: 40px;
+}
+
+.about-section .text p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 50px 0;
+}
+
+.about-section .text a {
+    padding: 15px 50px;
+    border-radius: 20px;
+    border: 1px solid var(--color-pink);
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--color-pink);
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.about-section .text a:hover {
+    background-color: #fff;
+    color: var(--color-pink);
+    transition: all .3s ease-in-out;
+}
+
+.about-section .image {
+    position: relative;
+    flex-basis: 40%;
+    height: 550px;
+}
+
+.about-section .image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-pink);
+    opacity: .3;
+    z-index: 2;
+}
+
+.about-section .image::before {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--color-pink);
+    z-index: -1;
+}
+
+.about-section .image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    padding: 100px 50px;
+    background-color: var(--color-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: -4;
+    color: #fff;
+}
+
+.contact-section .text {
+    flex-basis: 50%;
+}
+
+.contact-section .text h1 {
+    color: var(--color-yellow);
+    font-size: 40px;
+}
+
+.contact-section .text p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 50px 0;
+}
+
+.contact-section .text a {
+    padding: 15px 50px;
+    border-radius: 20px;
+    border: 1px solid var(--color-yellow);
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--color-yellow);
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+
+.contact-section .text a:hover {
+    background-color: #fff;
+    color: var(--color-yellow);
+    transition: all .3s ease-in-out;
+}
+
+.contact-section .image {
+    position: relative;
+    flex-basis: 40%;
+    height: 550px;
+    z-index: 2;
+}
+
+.contact-section .image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-yellow);
+    opacity: .2;
+}
+
+.contact-section .image::before {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    right: -25px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--color-yellow);
+    z-index: -1;
+}
+
+.contact-section .image img {
+    width: 100%;
+    height: 100%;
+}

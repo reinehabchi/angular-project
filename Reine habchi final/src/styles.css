@@ -1,0 +1,21 @@
+:root {
+    --color-yellow: #ebbf56;
+    --color-darkgreen: #506f6e;
+    --color-pink: #e2a1a7;
+    --color-blue: #2d2e47;
+    --color-red: #96243e;
+    --color-green: #aab747;
+    --color-cream: #ecd4b0;
+    --color-brown: #7c612e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial Narrow';
+}

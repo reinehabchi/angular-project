@@ -1,0 +1,74 @@
+
+/* FOOTER */
+footer {
+    background-color: var(--color-cream);
+    padding: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+footer .about {
+    flex-basis: 35%;
+}
+
+footer .about img {
+    width: 150px;
+}
+
+footer .about p {
+    text-align: justify;
+}
+
+footer .links {
+    flex-basis: 20%;
+}
+
+footer .findUs {
+    flex-basis: 30%;
+}
+
+footer .links ul li, footer .findUs ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+footer .links ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer .findUs .social-media a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer-img {
+    position: absolute;
+    right: 0;
+    width: 220px;
+    opacity: .4;
+}
+
+/* BOTTOM */
+.bottom {
+    background-color: var(--color-cream);
+    padding-bottom: 20px;
+}
+
+.bottom hr {
+    margin: 0 50px;
+    height: 1px;
+    border: 0;
+    outline: none;
+    background-color: #000;
+}
+
+.bottom p {
+    margin: auto;
+    width: fit-content;
+    font-size: 18px;
+}

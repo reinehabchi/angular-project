@@ -1,0 +1,16 @@
+<section [ngClass]="'shop-section'">
+    <h1>Our Products</h1>
+    <div class="grid">
+        <div *ngFor="let product of products" >
+            <a routerLink="shop">
+                <div [ngClass]="'item'">
+                    <img [src]= "product.ImageSrc" />
+                    <div id="info" [ngClass]="'info'">
+                        <p>1Kg of {{product.ProductName}} </p>
+                        <p>Price: {{product.Price}} $</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
